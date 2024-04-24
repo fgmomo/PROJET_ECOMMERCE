@@ -11,7 +11,7 @@
                     <div class="col-md pr-4 d-flex topper align-items-center">
                         <div class="icon mr-2 d-flex justify-content-center align-items-center"><span
                                 class="icon-paper-plane"></span></div>
-                        <span class="text">Awoloma@gmail.com</span>
+                        <span class="text">Abai@gmail.com</span>
                     </div>
                     <div class="col-md-5 pr-4 d-flex topper align-items-center text-lg-right">
                         <span class="text">Le site ecommerce ideal pour vous &amp; ..</span>
@@ -23,7 +23,7 @@
 </div>
 <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
     <div class="container">
-        <a class="navbar-brand" href="{{ route('home') }}">Awoloma Store</a>
+        <a class="navbar-brand" href="{{ route('home') }}">Abai Store</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav"
             aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="oi oi-menu"></span> Menu

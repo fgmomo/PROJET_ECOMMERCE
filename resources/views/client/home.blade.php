@@ -38,7 +38,7 @@
         </div>
       </div>
     </div>
-    <div class="col-md-3 text-center d-flex align-self-stretch ftco-animate">
+    {{-- <div class="col-md-3 text-center d-flex align-self-stretch ftco-animate">
       <div class="media block-6 services mb-md-0 mb-4">
         <div class="icon bg-color-2 d-flex justify-content-center align-items-center mb-2">
               <span class="flaticon-diet"></span>
@@ -48,7 +48,7 @@
           <span>Product well package</span>
         </div>
       </div>
-    </div>
+    </div> --}}
     <div class="col-md-3 text-center d-flex align-self-stretch ftco-animate">
       <div class="media block-6 services mb-md-0 mb-4">
         <div class="icon bg-color-3 d-flex justify-content-center align-items-center mb-2">
@@ -125,7 +125,7 @@
           <div class="row justify-content-center mb-3 pb-3">
     <div class="col-md-12 heading-section text-center ftco-animate">
         <span class="subheading">Featured Products</span>
-      <h2 class="mb-4">Our Products</h2>
+      <h2 class="mb-4">Nos Produits</h2>
       <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
     </div>
   </div>
@@ -133,8 +133,6 @@
   <div class="container">
       <div class="row">
         @foreach ($produits as $produit )
-
-
           <div class="col-md-6 col-lg-3 ftco-animate">
               <div class="product">
                   <a href="#" class="img-prod"><img class="img-fluid" src="/storage/product_images/{{$produit->product_image}}" alt="produit img">
@@ -168,7 +166,7 @@
   </div>
 </section>
 
-<section class="ftco-section img" style="background-image: url(frontend/images/bg_3.jpg);">
+{{-- <section class="ftco-section img" style="background-image: url(frontend/images/bg_3.jpg);">
   <div class="container">
           <div class="row justify-content-end">
     <div class="col-md-6 heading-section ftco-animate deal-of-the-day ftco-animate">
@@ -186,9 +184,9 @@
     </div>
   </div>
   </div>
-</section>
+</section> --}}
 
-<section class="ftco-section testimony-section">
+{{-- <section class="ftco-section testimony-section">
 <div class="container">
   <div class="row justify-content-center mb-5 pb-3">
     <div class="col-md-7 heading-section ftco-animate text-center">
@@ -274,11 +272,11 @@
     </div>
   </div>
 </div>
-</section>
+</section> --}}
 
 <hr>
 
-  <section class="ftco-section ftco-partner">
+  {{-- <section class="ftco-section ftco-partner">
   <div class="container">
       <div class="row">
           <div class="col-sm ftco-animate">
@@ -298,7 +296,7 @@
           </div>
       </div>
   </div>
-</section>
+</section> --}}
 @endsection
 
 

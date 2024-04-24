@@ -1,16 +1,15 @@
 <?php
 
 use App\Http\Controllers\AdminController;
-use App\Http\Controllers\AdminControllerController;
 use App\Http\Controllers\CategoryController;
 use App\Http\Controllers\ClientController;
 use App\Http\Controllers\ProductController;
 use App\Http\Controllers\SliderController;
+
 use Illuminate\Support\Facades\Route;
 
-// Route::get('/', function () {
-//     return view('welcome');
-// });
+
+
 Route::get('/', [ClientController::class,'home'])->name('home');
 Route::get('/shop', [ClientController::class,'shop'])->name('shop');
 Route::get('/panier', [ClientController::class,'panier'])->name('panier');
@@ -54,3 +53,6 @@ Route::post('/modifierslider',[SliderController::class,'modifierslider'])->name(
 Route::get('delete_slider/{id}',[SliderController::class,'delete_slider']);
 Route::get('activer_slider/{id}',[SliderController::class,'activer_slider']);
 Route::get('desactiver_slider/{id}',[SliderController::class,'desactiver_slider']);
+
+
+ 

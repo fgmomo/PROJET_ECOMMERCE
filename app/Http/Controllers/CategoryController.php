@@ -7,6 +7,7 @@ use Illuminate\Http\Request;
 
 class CategoryController extends Controller
 {
+ 
     public function categories(){
         $categories = Category::get();
         return view('admin.categories')->with('categories',$categories);

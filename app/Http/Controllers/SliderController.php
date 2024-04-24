@@ -8,7 +8,7 @@ use Illuminate\Support\Facades\Storage;
 
 class SliderController extends Controller
 {
-    public function  sliders()
+      public function  sliders()
     {
         $slider = Slider::get();
         return view('admin.sliders')->with('sliders', $slider);
